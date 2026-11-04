@@ -14,6 +14,7 @@
 - `01_hello.py`：呼叫模型（`ChatOllama`、`invoke`）
 - `02_memory.py`：上下文記憶（LangGraph 的 `InMemorySaver`、`thread_id`）
 - `03_memory_file.py`：把記憶存到 SQLite（`SqliteSaver`、自訂 state、`update_state`），身份存在 `user.conf`
+- `04_loop_agent.py`：Loop engineering，收集資料直到齊全（`add_conditional_edges`、驗證、上限、錯誤回饋）
 
 ```bash
 python 01_hello.py
